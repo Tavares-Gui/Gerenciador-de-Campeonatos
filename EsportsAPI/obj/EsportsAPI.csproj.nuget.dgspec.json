@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tag1ct\\Desktop\\DSADSADSADSA\\Trabalho-Quarta - Copy\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj": {}
+    "C:\\Users\\Televendas02\\Desktop\\projeto qquarta\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tag1ct\\Desktop\\DSADSADSADSA\\Trabalho-Quarta - Copy\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj": {
+    "C:\\Users\\Televendas02\\Desktop\\projeto qquarta\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tag1ct\\Desktop\\DSADSADSADSA\\Trabalho-Quarta - Copy\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Televendas02\\Desktop\\projeto qquarta\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj",
         "projectName": "EsportsAPI",
-        "projectPath": "C:\\Users\\tag1ct\\Desktop\\DSADSADSADSA\\Trabalho-Quarta - Copy\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj",
-        "packagesPath": "C:\\Users\\tag1ct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tag1ct\\Desktop\\DSADSADSADSA\\Trabalho-Quarta - Copy\\Gerenciador-de-Campeonatos\\EsportsAPI\\obj\\",
+        "projectPath": "C:\\Users\\Televendas02\\Desktop\\projeto qquarta\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj",
+        "packagesPath": "C:\\Users\\Televendas02\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Televendas02\\Desktop\\projeto qquarta\\Gerenciador-de-Campeonatos\\EsportsAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tag1ct\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Televendas02\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
