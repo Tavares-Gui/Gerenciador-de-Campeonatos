@@ -1,0 +1,8 @@
+C:\Users\tag1ct\Desktop\DSADSADSADSA\Trabalho-Quarta\Gerenciador-de-Campeonatos\EsportsAPI\obj\Debug\net8.0\EsportsAPI.csproj.AssemblyReference.cache
+C:\Users\tag1ct\Desktop\DSADSADSADSA\Trabalho-Quarta\Gerenciador-de-Campeonatos\EsportsAPI\obj\Debug\net8.0\EsportsAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tag1ct\Desktop\DSADSADSADSA\Trabalho-Quarta\Gerenciador-de-Campeonatos\EsportsAPI\obj\Debug\net8.0\EsportsAPI.AssemblyInfoInputs.cache
+C:\Users\tag1ct\Desktop\DSADSADSADSA\Trabalho-Quarta\Gerenciador-de-Campeonatos\EsportsAPI\obj\Debug\net8.0\EsportsAPI.AssemblyInfo.cs
+C:\Users\tag1ct\Desktop\DSADSADSADSA\Trabalho-Quarta\Gerenciador-de-Campeonatos\EsportsAPI\obj\Debug\net8.0\EsportsAPI.csproj.CoreCompileInputs.cache
+C:\Users\tag1ct\Desktop\DSADSADSADSA\Trabalho-Quarta\Gerenciador-de-Campeonatos\EsportsAPI\obj\Debug\net8.0\EsportsAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\tag1ct\Desktop\DSADSADSADSA\Trabalho-Quarta\Gerenciador-de-Campeonatos\EsportsAPI\obj\Debug\net8.0\EsportsAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tag1ct\Desktop\DSADSADSADSA\Trabalho-Quarta\Gerenciador-de-Campeonatos\EsportsAPI\obj\Debug\net8.0\EsportsAPI.sourcelink.json

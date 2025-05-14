@@ -3367,24 +3367,25 @@
       "Microsoft.AspNetCore.OpenApi >= 8.0.15",
       "Microsoft.EntityFrameworkCore >= 9.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.4",
+      "Microsoft.EntityFrameworkCore.Relational >= 9.0.4",
       "Pomelo.EntityFrameworkCore.MySql >= 8.0.3",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Televendas02\\.nuget\\packages\\": {}
+    "C:\\Users\\tag1ct\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Televendas02\\Desktop\\projeto qquarta\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj",
+      "projectUniqueName": "C:\\Users\\tag1ct\\Desktop\\DSADSADSADSA\\Trabalho-Quarta\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj",
       "projectName": "EsportsAPI",
-      "projectPath": "C:\\Users\\Televendas02\\Desktop\\projeto qquarta\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj",
-      "packagesPath": "C:\\Users\\Televendas02\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Televendas02\\Desktop\\projeto qquarta\\Gerenciador-de-Campeonatos\\EsportsAPI\\obj\\",
+      "projectPath": "C:\\Users\\tag1ct\\Desktop\\DSADSADSADSA\\Trabalho-Quarta\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj",
+      "packagesPath": "C:\\Users\\tag1ct\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tag1ct\\Desktop\\DSADSADSADSA\\Trabalho-Quarta\\Gerenciador-de-Campeonatos\\EsportsAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Televendas02\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\tag1ct\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -3427,6 +3428,10 @@
             "target": "Package",
             "version": "[9.0.4, )"
           },
+          "Microsoft.EntityFrameworkCore.Relational": {
+            "target": "Package",
+            "version": "[9.0.4, )"
+          },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
             "version": "[8.0.3, )"
@@ -3461,9 +3466,10 @@
   },
   "logs": [
     {
-      "code": "NU1107",
-      "level": "Error",
-      "message": "Version conflict detected for Microsoft.EntityFrameworkCore.Relational. Install/reference Microsoft.EntityFrameworkCore.Relational 9.0.4 directly to project EsportsAPI to resolve this issue. \r\n EsportsAPI -> Microsoft.EntityFrameworkCore.Design 9.0.4 -> Microsoft.EntityFrameworkCore.Relational (>= 9.0.4) \r\n EsportsAPI -> Pomelo.EntityFrameworkCore.MySql 8.0.3 -> Microsoft.EntityFrameworkCore.Relational (>= 8.0.13 && <= 8.0.999).",
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Pomelo.EntityFrameworkCore.MySql 8.0.3 requires Microsoft.EntityFrameworkCore.Relational (>= 8.0.13 && <= 8.0.999) but version Microsoft.EntityFrameworkCore.Relational 9.0.4 was resolved.",
       "libraryId": "Microsoft.EntityFrameworkCore.Relational",
       "targetGraphs": [
         "net8.0"
