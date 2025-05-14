@@ -1,12 +1,14 @@
-using Microsoft.AspNetCore.Mvc;
 using EsportsAPI.Data;
 using EsportsAPI.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 [ApiController]
 [Route("api/[controller]")]
 public class CampeonatoController : ControllerBase
 {
     private readonly ApplicationDbContext _context;
+
     public CampeonatoController(ApplicationDbContext context)
     {
         _context = context;
@@ -15,7 +17,11 @@ public class CampeonatoController : ControllerBase
     [HttpGet]
     public IActionResult Get()
     {
-        var campeonatos = _context.Campeonatos.ToList();
+        var campeonatos = _context.Campeonatos
+            .Include(c => c.CampeonatoEquipes)
+                .ThenInclude(ce => ce.Equipe)
+            .ToList();
+
         return Ok(campeonatos);
     }
 
