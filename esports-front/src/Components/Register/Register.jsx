@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Login/Login.css'; // Reutilizando o mesmo CSS
+import './Register.css'; // Reutilizando o mesmo CSS
 
 const Register = ({ onRegister, onSwitchToLogin }) => {
   const [usuario, setUsuario] = useState('');
