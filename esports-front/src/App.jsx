@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
+import Home from './Pages/Home'
+import './styles.css'
 
-const App = () => {
-  return (
-    <div className="app">
-      
-    </div>
-  );
-};
+function App() {
+  return <Home />
+}
 
-export default App;
+export default App
