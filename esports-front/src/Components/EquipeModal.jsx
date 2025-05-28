@@ -55,7 +55,7 @@ export default function EquipeModal({ open, onClose }) {
             <input
               key={i}
               type="text"
-              placeholder={Participante ${i + 1}}
+              placeholder={`Participante ${i + 1}`}
               value={p}
               onChange={(e) => handleChange(i, e.target.value)}
               required

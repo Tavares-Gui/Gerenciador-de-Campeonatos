@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tag1ct\\Desktop\\DSADSADSADSA\\Trabalho-Quarta\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj": {}
+    "C:\\Users\\Guilherme\\Desktop\\trab\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tag1ct\\Desktop\\DSADSADSADSA\\Trabalho-Quarta\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj": {
+    "C:\\Users\\Guilherme\\Desktop\\trab\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tag1ct\\Desktop\\DSADSADSADSA\\Trabalho-Quarta\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Guilherme\\Desktop\\trab\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj",
         "projectName": "EsportsAPI",
-        "projectPath": "C:\\Users\\tag1ct\\Desktop\\DSADSADSADSA\\Trabalho-Quarta\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj",
-        "packagesPath": "C:\\Users\\tag1ct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tag1ct\\Desktop\\DSADSADSADSA\\Trabalho-Quarta\\Gerenciador-de-Campeonatos\\EsportsAPI\\obj\\",
+        "projectPath": "C:\\Users\\Guilherme\\Desktop\\trab\\Gerenciador-de-Campeonatos\\EsportsAPI\\EsportsAPI.csproj",
+        "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Guilherme\\Desktop\\trab\\Gerenciador-de-Campeonatos\\EsportsAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tag1ct\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Guilherme\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,37 +37,30 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[8.0.15, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.13, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.3, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.6.2, )"
             }
           },
           "imports": [
@@ -81,6 +74,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -89,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,7 +1,10 @@
-public class Jogador
+namespace EsportsAPI.Models
 {
-    public int Id { get; set; }
-    public string Nome { get; set; }
-    public int EquipeId { get; set; }
-    public Equipe? Equipe { get; set; }
+    public class Jogador
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public int EquipeId { get; set; }
+        public Equipe? Equipe { get; set; }
+    }
 }
