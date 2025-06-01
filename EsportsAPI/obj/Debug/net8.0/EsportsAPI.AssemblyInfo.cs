@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EsportsAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0cb6860435a9686f8f6a2ccdbf3f61cc46db41c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+960154e027ffe1889be1aaaa085faa4e504073bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("EsportsAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EsportsAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

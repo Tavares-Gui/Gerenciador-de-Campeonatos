@@ -2,9 +2,11 @@ using EsportsAPI.Data;
 using EsportsAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations.Schema;
 
 [ApiController]
 [Route("api/[controller]")]
+[Table("equipe")]
 public class EquipeController : ControllerBase
 {
     private readonly ApplicationDbContext _context;
