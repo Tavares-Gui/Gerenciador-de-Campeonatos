@@ -1,11 +1,10 @@
-namespace EsportsAPI.Models
-{
-    public class CampeonatoEquipe
-    {
-        public int CampeonatoId { get; set; }
-        public Campeonato? Campeonato { get; set; }
+namespace EsportsAPI.Models;
 
-        public int EquipeId { get; set; }
-        public Equipe? Equipe { get; set; }
-    }
+public class Campeonato
+{
+    public int Id { get; set; }
+    public string Nome { get; set; }
+    public DateTime Data { get; set; }
+
+    public List<CampeonatoEquipe>? CampeonatoEquipes { get; set; }
 }

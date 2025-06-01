@@ -1,3 +1,8 @@
+using EsportsAPI.Data; 
+using EsportsAPI.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
 [ApiController]
 [Route("api/[controller]")]
 public class EquipeController : ControllerBase
